@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:local="clr-namespace:CSharp_Shell"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="IGTOOLS.Login">
+		
+	<ContentPage.Content>
+		<StackLayout Padding="20" Spacing="10">
+			
+			<Frame BackgroundColor="rgba(0,0,0,0.1)">
+				<StackLayout>
+				<Label Text="Ig Tools" FontSize="40"></Label>
+				<Label Text="Nakal boleh goblok jangan :)"></Label>
+				</StackLayout>
+			</Frame>
+			<Frame BackgroundColor="rgba(0,0,0,0.1)">
+				<StackLayout Spacing="10">
+					<ImageButton BackgroundColor="Transparent" Clicked="BantuangLogin" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand" Source="assets/icons/help_64.png"></ImageButton>
+					<Editor x:Name="KukiMu" Placeholder="kuki mu..." HeightRequest="120"></Editor>
+					<Button Text="check" Clicked="CheckKuki" BackgroundColor="DeepPink" HeightRequest="40"></Button>
+				</StackLayout>
+			</Frame>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
+
+
+
+

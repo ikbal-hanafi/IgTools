@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:local="clr-namespace:IGTOOLS"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="IGTOOLS.Mass_like">
+
+	<ContentPage.Content>
+		<StackLayout Padding="20">
+			<Frame BackgroundColor="rgba(0,0,0,0.1)">
+				<StackLayout Spacing="10">
+					
+					<Entry x:Name="username" Placeholder="id"></Entry>
+					<Entry x:Name="jumlah" Text="0" Placeholder="jumlah max:500" Keyboard="Numeric"></Entry>
+					<Button Text="Gass" BackgroundColor="DeepPink" HeightRequest="35" WidthRequest="90" HorizontalOptions="EndAndExpand" Clicked="GassCok"></Button>
+				</StackLayout>
+			</Frame>
+			
+			<StackLayout Padding="10" VerticalOptions="EndAndExpand" HeightRequest="230" BackgroundColor="rgba(0,0,0,0.5)">
+				<StackLayout Spacing="20">
+					<Label Text="result: " TextColor="LightGreen"></Label>
+					<ScrollView>
+					<StackLayout x:Name="result" Spacing="5">
+						
+					</StackLayout>
+					</ScrollView>
+				</StackLayout>
+
+			</StackLayout>
+			
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

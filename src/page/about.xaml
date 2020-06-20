@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:local="clr-namespace:IGTOOLS"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="IGTOOLS.About">
+	<ContentPage.Content>
+		<StackLayout Padding="20">
+			<Frame BackgroundColor="rgba(0,0,0,0.1)">
+				<StackLayout>
+					<Label FontSize="20" Text="Author: Muhammad Ikbal"></Label>
+					<Label FontSize="20" Text="Facebook: fb.me/Xiuz.Maoundis"></Label>
+				</StackLayout>
+			</Frame>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
